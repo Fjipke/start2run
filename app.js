@@ -331,6 +331,7 @@ let currentIntervals = [];
 let intervalIndex = 0;
 let timer = null;
 let remainingSeconds = 0;
+let audioUnlocked = false;
 
 // ===== Populate Weeks =====
 function populateWeeks() {
@@ -375,11 +376,26 @@ function loadIntervals() {
 
 // ===== Start Timer =====
 function startTimer() {
+  // iOS unlock
+  if (!audioUnlocked) {
+    beep.play().catch(()=>{}); 
+    audioUnlocked = true;
+  }
+
   if (currentIntervals.length === 0) return;
   if (timer) return;
+
   timer = setInterval(() => {
     if (remainingSeconds <= 0) {
+      // Play beep
+      beep.currentTime = 0;
       beep.play();
+
+      // Vibrate for 300ms if supported
+      if (navigator.vibrate) {
+        navigator.vibrate(300);
+      }
+
       intervalIndex++;
       if (intervalIndex >= currentIntervals.length) {
         clearInterval(timer);
@@ -391,6 +407,7 @@ function startTimer() {
     } else {
       remainingSeconds--;
     }
+
     const mins = Math.floor(remainingSeconds / 60);
     const secs = remainingSeconds % 60;
     timeDisplay.textContent = `${mins}:${secs.toString().padStart(2,"0")}`;
@@ -404,14 +421,8 @@ function pauseTimer() {
 }
 
 // ===== Event Listeners =====
-weekSelect.addEventListener("change", () => {
-  populateDays();
-});
-
-daySelect.addEventListener("change", () => {
-  loadIntervals();
-});
-
+weekSelect.addEventListener("change", () => populateDays());
+daySelect.addEventListener("change", () => loadIntervals());
 startBtn.addEventListener("click", startTimer);
 pauseBtn.addEventListener("click", pauseTimer);
 
