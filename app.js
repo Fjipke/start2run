@@ -326,6 +326,7 @@ const timeDisplay = document.getElementById("time");
 const startBtn = document.getElementById("startBtn");
 const pauseBtn = document.getElementById("pauseBtn");
 const beep = document.getElementById("beep");
+const finishBeep = document.getElementById("finishBeep");
 
 let currentIntervals = [];
 let intervalIndex = 0;
@@ -376,11 +377,12 @@ function loadIntervals() {
 
 // ===== Start Timer =====
 function startTimer() {
-  // Unlock audio & vibration on first Start tap
+  // Unlock audio on first tap for iOS
   if (!audioUnlocked) {
     beep.currentTime = 0;
     beep.play().catch(() => {});
-    if (navigator.vibrate) navigator.vibrate(50);
+    finishBeep.currentTime = 0; // unlock finish beep as well
+    finishBeep.play().catch(() => {});
     audioUnlocked = true;
   }
 
@@ -389,15 +391,19 @@ function startTimer() {
 
   timer = setInterval(() => {
     if (remainingSeconds <= 0) {
-      // Beep + vibrate
+      // Play interval beep
       beep.currentTime = 0;
       beep.play();
-      if (navigator.vibrate) navigator.vibrate(300);
 
       intervalIndex++;
       if (intervalIndex >= currentIntervals.length) {
         clearInterval(timer);
         timer = null;
+        // ===== Workout Complete =====
+        intervalTypeDisplay.textContent = "WORKOUT COMPLETE!";
+        timeDisplay.textContent = "0:00";
+        finishBeep.currentTime = 0;
+        finishBeep.play().catch(() => {});
         return;
       }
       remainingSeconds = currentIntervals[intervalIndex].duration;
