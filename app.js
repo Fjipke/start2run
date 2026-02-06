@@ -376,9 +376,11 @@ function loadIntervals() {
 
 // ===== Start Timer =====
 function startTimer() {
-  // iOS unlock
+  // Unlock audio & vibration on first Start tap
   if (!audioUnlocked) {
-    beep.play().catch(()=>{}); 
+    beep.currentTime = 0;
+    beep.play().catch(() => {});
+    if (navigator.vibrate) navigator.vibrate(50);
     audioUnlocked = true;
   }
 
@@ -387,14 +389,10 @@ function startTimer() {
 
   timer = setInterval(() => {
     if (remainingSeconds <= 0) {
-      // Play beep
+      // Beep + vibrate
       beep.currentTime = 0;
       beep.play();
-
-      // Vibrate for 300ms if supported
-      if (navigator.vibrate) {
-        navigator.vibrate(300);
-      }
+      if (navigator.vibrate) navigator.vibrate(300);
 
       intervalIndex++;
       if (intervalIndex >= currentIntervals.length) {
@@ -410,7 +408,7 @@ function startTimer() {
 
     const mins = Math.floor(remainingSeconds / 60);
     const secs = remainingSeconds % 60;
-    timeDisplay.textContent = `${mins}:${secs.toString().padStart(2,"0")}`;
+    timeDisplay.textContent = `${mins}:${secs.toString().padStart(2, "0")}`;
   }, 1000);
 }
 
@@ -421,8 +419,8 @@ function pauseTimer() {
 }
 
 // ===== Event Listeners =====
-weekSelect.addEventListener("change", () => populateDays());
-daySelect.addEventListener("change", () => loadIntervals());
+weekSelect.addEventListener("change", populateDays);
+daySelect.addEventListener("change", loadIntervals);
 startBtn.addEventListener("click", startTimer);
 pauseBtn.addEventListener("click", pauseTimer);
 
