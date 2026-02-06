@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Start-to-Run App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Start-to-Run</h1>
+
+    <div class="selectors">
+      <label>Week:
+        <select id="weekSelect"></select>
+      </label>
+
+      <label>Day:
+        <select id="daySelect"></select>
+      </label>
+    </div>
+
+    <div class="timer-display">
+      <h2 id="intervalType">--</h2>
+      <div id="time">00:00</div>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+    </div>
+  </div>
+
+  <!-- Beep sound -->
+  <audio id="beep" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" preload="auto"></audio>
+
+  <!-- Include JS LAST so DOM exists -->
+  <script src="app.js"></script>
+</body>
+</html>
