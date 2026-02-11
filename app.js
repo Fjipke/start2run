@@ -440,5 +440,14 @@ startBtn.addEventListener("click", startTimer);
 pauseBtn.addEventListener("click", pauseTimer);
 
 // ===== Initialize =====
-populateWeeks();
+function populateWeeks() {
+  weekSelect.innerHTML = "";
+  trainingPlan.forEach((week, index) => {
+    const option = document.createElement("option");
+    option.value = index; // <-- THIS MUST BE INDEX
+    option.textContent = `Week ${index + 1}`;
+    weekSelect.appendChild(option);
+  });
+}
+
 
