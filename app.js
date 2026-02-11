@@ -1,8 +1,6 @@
-// =====================================
-// ===== START TO RUN – FULL APP ======
-// =====================================
+// ===== Start-to-Run App JS with Vibration =====
 
-// ===== FULL 11-WEEK TRAINING PLAN =====
+// Training Plan: Full 11 Weeks
 const trainingPlan = [
   // ===== WEEK 1 =====
   {
@@ -14,7 +12,7 @@ const trainingPlan = [
         {type:"run",duration:120},{type:"walk",duration:120},
         {type:"run",duration:120},{type:"walk",duration:120},
         {type:"run",duration:180},{type:"walk",duration:180}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:60},{type:"walk",duration:60},
@@ -22,7 +20,7 @@ const trainingPlan = [
         {type:"run",duration:120},{type:"walk",duration:120},
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:60},{type:"walk",duration:60},
@@ -30,7 +28,7 @@ const trainingPlan = [
         {type:"run",duration:240},{type:"walk",duration:180},
         {type:"run",duration:240},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -46,7 +44,7 @@ const trainingPlan = [
         {type:"run",duration:120},{type:"walk",duration:120},
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:120},{type:"walk",duration:120},
@@ -54,7 +52,7 @@ const trainingPlan = [
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:60},{type:"walk",duration:60},
@@ -62,7 +60,7 @@ const trainingPlan = [
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -78,7 +76,7 @@ const trainingPlan = [
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:120},{type:"walk",duration:120},
@@ -89,7 +87,7 @@ const trainingPlan = [
         {type:"run",duration:120},{type:"walk",duration:60},
         {type:"run",duration:120},{type:"walk",duration:60},
         {type:"run",duration:120},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:60},{type:"walk",duration:60},
@@ -97,7 +95,7 @@ const trainingPlan = [
         {type:"run",duration:240},{type:"walk",duration:180},
         {type:"run",duration:240},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -113,7 +111,7 @@ const trainingPlan = [
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:180},
         {type:"run",duration:180},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:120},{type:"walk",duration:120},
@@ -124,7 +122,7 @@ const trainingPlan = [
         {type:"run",duration:120},{type:"walk",duration:60},
         {type:"run",duration:120},{type:"walk",duration:60},
         {type:"run",duration:120},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:60},{type:"walk",duration:60},
@@ -132,7 +130,7 @@ const trainingPlan = [
         {type:"run",duration:240},{type:"walk",duration:180},
         {type:"run",duration:240},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -148,7 +146,7 @@ const trainingPlan = [
         {type:"run",duration:300},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:120},{type:"walk",duration:60},
@@ -156,7 +154,7 @@ const trainingPlan = [
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:420},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:120},{type:"walk",duration:120},
@@ -164,7 +162,7 @@ const trainingPlan = [
         {type:"run",duration:300},{type:"walk",duration:120},
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:420},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -180,7 +178,7 @@ const trainingPlan = [
         {type:"run",duration:300},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:180},
         {type:"run",duration:300},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:120},{type:"walk",duration:60},
@@ -188,7 +186,7 @@ const trainingPlan = [
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:420},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:120},{type:"walk",duration:120},
@@ -196,7 +194,7 @@ const trainingPlan = [
         {type:"run",duration:300},{type:"walk",duration:120},
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:420},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -211,20 +209,20 @@ const trainingPlan = [
         {type:"run",duration:360},{type:"walk",duration:120},
         {type:"run",duration:420},{type:"walk",duration:120},
         {type:"run",duration:480},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:480},{type:"walk",duration:60},
         {type:"run",duration:480},{type:"walk",duration:120},
         {type:"run",duration:480},{type:"walk",duration:60},
         {type:"run",duration:480},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:600},{type:"walk",duration:120},
         {type:"run",duration:600},{type:"walk",duration:120},
         {type:"run",duration:720},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -237,18 +235,18 @@ const trainingPlan = [
       { name: "Day 1", intervals: [
         {type:"run",duration:720},{type:"walk",duration:120},
         {type:"run",duration:900},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:720},{type:"walk",duration:60},
         {type:"run",duration:720},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:1200},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -261,18 +259,18 @@ const trainingPlan = [
       { name: "Day 1", intervals: [
         {type:"run",duration:900},{type:"walk",duration:120},
         {type:"run",duration:900},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:720},{type:"walk",duration:60},
         {type:"run",duration:720},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:1200},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -285,18 +283,18 @@ const trainingPlan = [
       { name: "Day 1", intervals: [
         {type:"run",duration:900},{type:"walk",duration:120},
         {type:"run",duration:900},{type:"walk",duration:120}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:720},{type:"walk",duration:60},
         {type:"run",duration:720},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 4", intervals: [] },
       { name: "Day 5", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:1200},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 6", intervals: [] },
       { name: "Day 7", intervals: [] }
     ]
@@ -309,7 +307,7 @@ const trainingPlan = [
       { name: "Day 1", intervals: [
         {type:"run",duration:600},{type:"walk",duration:60},
         {type:"run",duration:1200},{type:"walk",duration:60}
-      ]},
+      ] },
       { name: "Day 2", intervals: [] },
       { name: "Day 3", intervals: [{type:"run",duration:1800}] },
       { name: "Day 4", intervals: [] },
@@ -320,7 +318,7 @@ const trainingPlan = [
   }
 ];
 
-// ===== DOM =====
+// ===== DOM Elements =====
 const weekSelect = document.getElementById("weekSelect");
 const daySelect = document.getElementById("daySelect");
 const intervalTypeDisplay = document.getElementById("intervalType");
@@ -329,53 +327,53 @@ const startBtn = document.getElementById("startBtn");
 const pauseBtn = document.getElementById("pauseBtn");
 const beep = document.getElementById("beep");
 
-// ===== STATE =====
 let currentIntervals = [];
 let intervalIndex = 0;
 let timer = null;
 let remainingSeconds = 0;
 let audioUnlocked = false;
 
-// ===== DISPLAY =====
+// ===== Load Intervals =====
+function loadWorkout() {
+  const week = trainingPlan[weekSelect.value];
+  const day = week.workouts[daySelect.value];
+  currentIntervals = day.intervals;
+  intervalIndex = 0;
+
+  if (currentIntervals.length > 0) {
+    remainingSeconds = currentIntervals[0].duration;
+    intervalTypeDisplay.textContent = currentIntervals[0].type.toUpperCase();
+  } else {
+    remainingSeconds = 0;
+    intervalTypeDisplay.textContent = "REST";
+  }
+  updateDisplay();
+}
+
+// ===== Update Timer Display =====
 function updateDisplay() {
   const mins = Math.floor(remainingSeconds / 60);
   const secs = remainingSeconds % 60;
   timeDisplay.textContent = `${mins}:${secs.toString().padStart(2,"0")}`;
 }
 
-// ===== LOAD WORKOUT =====
-function loadWorkout() {
-  clearInterval(timer);
-  timer = null;
-  intervalIndex = 0;
-
-  const week = trainingPlan[weekSelect.value];
-  const day = week.workouts[daySelect.value];
-
-  currentIntervals = day.intervals;
-
-  if (currentIntervals.length === 0) {
-    remainingSeconds = 0;
-    intervalTypeDisplay.textContent = "REST DAY";
-  } else {
-    remainingSeconds = currentIntervals[0].duration;
-    intervalTypeDisplay.textContent = currentIntervals[0].type.toUpperCase();
-  }
-  updateDisplay();
-}
-
-// ===== TIMER =====
+// ===== Start Timer =====
 function startTimer() {
   if (!audioUnlocked) {
     beep.play().catch(()=>{});
     audioUnlocked = true;
   }
-  if (currentIntervals.length === 0 || timer) return;
+  if (currentIntervals.length === 0) return;
+  if (timer) return;
 
   timer = setInterval(()=>{
     if (remainingSeconds <= 0) {
       beep.currentTime = 0;
       beep.play();
+
+      // vibration at each interval change
+      if (navigator.vibrate) navigator.vibrate(200);
+
       intervalIndex++;
       if (intervalIndex >= currentIntervals.length) {
         clearInterval(timer);
@@ -383,30 +381,33 @@ function startTimer() {
         intervalTypeDisplay.textContent = "WORKOUT COMPLETE!";
         remainingSeconds = 0;
         updateDisplay();
+        if (navigator.vibrate) navigator.vibrate([300,100,300]);
         return;
       }
+
       remainingSeconds = currentIntervals[intervalIndex].duration;
       intervalTypeDisplay.textContent = currentIntervals[intervalIndex].type.toUpperCase();
     } else {
       remainingSeconds--;
     }
     updateDisplay();
-  }, 1000);
+  },1000);
 }
 
+// ===== Pause Timer =====
 function pauseTimer() {
   clearInterval(timer);
   timer = null;
 }
 
-// ===== POPULATE SELECTORS =====
+// ===== Populate Selectors =====
 function populateWeeks() {
   weekSelect.innerHTML = "";
   trainingPlan.forEach((week,i)=>{
-    const option = document.createElement("option");
-    option.value = i;
-    option.textContent = week.name;
-    weekSelect.appendChild(option);
+    const opt = document.createElement("option");
+    opt.value=i;
+    opt.textContent=week.name;
+    weekSelect.appendChild(opt);
   });
   populateDays();
 }
@@ -415,19 +416,19 @@ function populateDays() {
   daySelect.innerHTML = "";
   const week = trainingPlan[weekSelect.value];
   week.workouts.forEach((day,i)=>{
-    const option = document.createElement("option");
-    option.value = i;
-    option.textContent = day.intervals.length>0?day.name:`${day.name} (Rest)`;
-    daySelect.appendChild(option);
+    const opt=document.createElement("option");
+    opt.value=i;
+    opt.textContent=day.intervals.length>0 ? day.name : `${day.name} (Rest)`;
+    daySelect.appendChild(opt);
   });
   loadWorkout();
 }
 
-// ===== EVENT LISTENERS =====
-weekSelect.addEventListener("change", populateDays);
-daySelect.addEventListener("change", loadWorkout);
-startBtn.addEventListener("click", startTimer);
-pauseBtn.addEventListener("click", pauseTimer);
+// ===== Event Listeners =====
+weekSelect.addEventListener("change",populateDays);
+daySelect.addEventListener("change",loadWorkout);
+startBtn.addEventListener("click",startTimer);
+pauseBtn.addEventListener("click",pauseTimer);
 
-// ===== INIT =====
+// ===== Initialize =====
 populateWeeks();
