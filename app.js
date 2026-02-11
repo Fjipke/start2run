@@ -4,7 +4,6 @@
 
 // ===== FULL 11-WEEK TRAINING PLAN =====
 const trainingPlan = [
-
   // ===== WEEK 1 =====
   {
     name: "Week 1",
@@ -69,10 +68,215 @@ const trainingPlan = [
     ]
   },
 
-  // ===== WEEK 3–9 OMITTED HERE FOR SPACE =====
-  // ⚠️ IMPORTANT:
-  // Insert your exact Weeks 3–9 data here exactly as you previously had it.
-  // (They are structurally identical to the earlier version that worked.)
+  // ===== WEEK 3 =====
+  {
+    name: "Week 3",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:60},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:180},{type:"walk",duration:180},
+        {type:"run",duration:180},{type:"walk",duration:180},
+        {type:"run",duration:180},{type:"walk",duration:120}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:60},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:240},{type:"walk",duration:180},
+        {type:"run",duration:240},{type:"walk",duration:180},
+        {type:"run",duration:300},{type:"walk",duration:60}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
+
+  // ===== WEEK 4 =====
+  {
+    name: "Week 4",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:60},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:180},{type:"walk",duration:180},
+        {type:"run",duration:180},{type:"walk",duration:180},
+        {type:"run",duration:180},{type:"walk",duration:120}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:60}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:60},{type:"walk",duration:60},
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:240},{type:"walk",duration:180},
+        {type:"run",duration:240},{type:"walk",duration:180},
+        {type:"run",duration:300},{type:"walk",duration:60}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
+
+  // ===== WEEK 5 =====
+  {
+    name: "Week 5",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:180},{type:"walk",duration:120},
+        {type:"run",duration:300},{type:"walk",duration:180},
+        {type:"run",duration:300},{type:"walk",duration:180},
+        {type:"run",duration:300},{type:"walk",duration:120}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:180},{type:"walk",duration:120},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:420},{type:"walk",duration:120}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:240},{type:"walk",duration:120},
+        {type:"run",duration:300},{type:"walk",duration:120},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:420},{type:"walk",duration:120}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
+
+  // ===== WEEK 6 =====
+  {
+    name: "Week 6",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:180},{type:"walk",duration:120},
+        {type:"run",duration:300},{type:"walk",duration:180},
+        {type:"run",duration:300},{type:"walk",duration:180},
+        {type:"run",duration:300},{type:"walk",duration:120}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:60},
+        {type:"run",duration:180},{type:"walk",duration:120},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:420},{type:"walk",duration:120}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:120},{type:"walk",duration:120},
+        {type:"run",duration:240},{type:"walk",duration:120},
+        {type:"run",duration:300},{type:"walk",duration:120},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:420},{type:"walk",duration:120}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
+
+  // ===== WEEK 7 =====
+  {
+    name: "Week 7",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:300},{type:"walk",duration:60},
+        {type:"run",duration:360},{type:"walk",duration:120},
+        {type:"run",duration:420},{type:"walk",duration:120},
+        {type:"run",duration:480},{type:"walk",duration:60}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:480},{type:"walk",duration:60},
+        {type:"run",duration:480},{type:"walk",duration:120},
+        {type:"run",duration:480},{type:"walk",duration:60},
+        {type:"run",duration:480},{type:"walk",duration:60}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:600},{type:"walk",duration:120},
+        {type:"run",duration:600},{type:"walk",duration:120},
+        {type:"run",duration:720},{type:"walk",duration:60}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
+
+  // ===== WEEK 8 =====
+  {
+    name: "Week 8",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:720},{type:"walk",duration:120},
+        {type:"run",duration:900},{type:"walk",duration:120}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:600},{type:"walk",duration:60},
+        {type:"run",duration:720},{type:"walk",duration:60},
+        {type:"run",duration:720},{type:"walk",duration:60}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:600},{type:"walk",duration:60},
+        {type:"run",duration:1200},{type:"walk",duration:60}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
+
+  // ===== WEEK 9 =====
+  {
+    name: "Week 9",
+    workouts: [
+      { name: "Day 1", intervals: [
+        {type:"run",duration:900},{type:"walk",duration:120},
+        {type:"run",duration:900},{type:"walk",duration:120}
+      ]},
+      { name: "Day 2", intervals: [] },
+      { name: "Day 3", intervals: [
+        {type:"run",duration:600},{type:"walk",duration:60},
+        {type:"run",duration:720},{type:"walk",duration:60},
+        {type:"run",duration:720},{type:"walk",duration:60}
+      ]},
+      { name: "Day 4", intervals: [] },
+      { name: "Day 5", intervals: [
+        {type:"run",duration:600},{type:"walk",duration:60},
+        {type:"run",duration:1200},{type:"walk",duration:60}
+      ]},
+      { name: "Day 6", intervals: [] },
+      { name: "Day 7", intervals: [] }
+    ]
+  },
 
   // ===== WEEK 10 =====
   {
@@ -124,7 +328,6 @@ const timeDisplay = document.getElementById("time");
 const startBtn = document.getElementById("startBtn");
 const pauseBtn = document.getElementById("pauseBtn");
 const beep = document.getElementById("beep");
-const finishBeep = document.getElementById("finishBeep");
 
 // ===== STATE =====
 let currentIntervals = [];
@@ -137,7 +340,7 @@ let audioUnlocked = false;
 function updateDisplay() {
   const mins = Math.floor(remainingSeconds / 60);
   const secs = remainingSeconds % 60;
-  timeDisplay.textContent = `${mins}:${secs.toString().padStart(2, "0")}`;
+  timeDisplay.textContent = `${mins}:${secs.toString().padStart(2,"0")}`;
 }
 
 // ===== LOAD WORKOUT =====
@@ -156,17 +359,50 @@ function loadWorkout() {
     intervalTypeDisplay.textContent = "REST DAY";
   } else {
     remainingSeconds = currentIntervals[0].duration;
-    intervalTypeDisplay.textContent =
-      currentIntervals[0].type.toUpperCase();
+    intervalTypeDisplay.textContent = currentIntervals[0].type.toUpperCase();
   }
-
   updateDisplay();
 }
 
-// ===== POPULATE =====
+// ===== TIMER =====
+function startTimer() {
+  if (!audioUnlocked) {
+    beep.play().catch(()=>{});
+    audioUnlocked = true;
+  }
+  if (currentIntervals.length === 0 || timer) return;
+
+  timer = setInterval(()=>{
+    if (remainingSeconds <= 0) {
+      beep.currentTime = 0;
+      beep.play();
+      intervalIndex++;
+      if (intervalIndex >= currentIntervals.length) {
+        clearInterval(timer);
+        timer = null;
+        intervalTypeDisplay.textContent = "WORKOUT COMPLETE!";
+        remainingSeconds = 0;
+        updateDisplay();
+        return;
+      }
+      remainingSeconds = currentIntervals[intervalIndex].duration;
+      intervalTypeDisplay.textContent = currentIntervals[intervalIndex].type.toUpperCase();
+    } else {
+      remainingSeconds--;
+    }
+    updateDisplay();
+  }, 1000);
+}
+
+function pauseTimer() {
+  clearInterval(timer);
+  timer = null;
+}
+
+// ===== POPULATE SELECTORS =====
 function populateWeeks() {
   weekSelect.innerHTML = "";
-  trainingPlan.forEach((week, i) => {
+  trainingPlan.forEach((week,i)=>{
     const option = document.createElement("option");
     option.value = i;
     option.textContent = week.name;
@@ -178,69 +414,16 @@ function populateWeeks() {
 function populateDays() {
   daySelect.innerHTML = "";
   const week = trainingPlan[weekSelect.value];
-  week.workouts.forEach((day, i) => {
+  week.workouts.forEach((day,i)=>{
     const option = document.createElement("option");
     option.value = i;
-    option.textContent =
-      day.intervals.length > 0 ? day.name : `${day.name} (Rest)`;
+    option.textContent = day.intervals.length>0?day.name:`${day.name} (Rest)`;
     daySelect.appendChild(option);
   });
   loadWorkout();
 }
 
-// ===== TIMER =====
-function startTimer() {
-
-  if (currentIntervals.length === 0) return;
-  if (timer !== null) return;
-
-  // unlock audio for iOS
-  if (!audioUnlocked) {
-    beep.play().catch(()=>{});
-    if (finishBeep) finishBeep.play().catch(()=>{});
-    audioUnlocked = true;
-  }
-
-  timer = setInterval(() => {
-
-    if (remainingSeconds <= 0) {
-
-      beep.currentTime = 0;
-      beep.play();
-
-      intervalIndex++;
-
-      if (intervalIndex >= currentIntervals.length) {
-        clearInterval(timer);
-        timer = null;
-        intervalTypeDisplay.textContent = "WORKOUT COMPLETE!";
-        remainingSeconds = 0;
-        updateDisplay();
-        if (finishBeep) {
-          finishBeep.currentTime = 0;
-          finishBeep.play();
-        }
-        return;
-      }
-
-      remainingSeconds = currentIntervals[intervalIndex].duration;
-      intervalTypeDisplay.textContent =
-        currentIntervals[intervalIndex].type.toUpperCase();
-    } else {
-      remainingSeconds--;
-    }
-
-    updateDisplay();
-
-  }, 1000);
-}
-
-function pauseTimer() {
-  clearInterval(timer);
-  timer = null;
-}
-
-// ===== EVENTS =====
+// ===== EVENT LISTENERS =====
 weekSelect.addEventListener("change", populateDays);
 daySelect.addEventListener("change", loadWorkout);
 startBtn.addEventListener("click", startTimer);
