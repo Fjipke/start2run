@@ -361,13 +361,22 @@ function populateDays() {
 
 // ===== Load Intervals =====
 function loadIntervals() {
-  const week = trainingPlan[weekSelect.value];
-  const day = week.workouts[daySelect.value];
+  const weekIndex = parseInt(weekSelect.value);
+  const dayIndex = parseInt(daySelect.value);
+
+  const week = trainingPlan[weekIndex];
+  const day = week.workouts[dayIndex];
+
   currentIntervals = day.intervals;
   intervalIndex = 0;
+
   if (currentIntervals.length > 0) {
     remainingSeconds = currentIntervals[0].duration;
     intervalTypeDisplay.textContent = currentIntervals[0].type.toUpperCase();
+
+    const mins = Math.floor(remainingSeconds / 60);
+    const secs = remainingSeconds % 60;
+    timeDisplay.textContent = `${mins}:${secs.toString().padStart(2, "0")}`;
   } else {
     remainingSeconds = 0;
     intervalTypeDisplay.textContent = "REST";
@@ -432,3 +441,4 @@ pauseBtn.addEventListener("click", pauseTimer);
 
 // ===== Initialize =====
 populateWeeks();
+
